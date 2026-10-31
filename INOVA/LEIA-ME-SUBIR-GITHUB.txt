@@ -1,0 +1,36 @@
+INOVE — VERSÃO ATUAL PARA GITHUB E VERCEL
+
+1. EXTRAIR O ZIP
+No Windows, clique com o botão direito no ZIP e escolha Extrair Tudo.
+Este ZIP é o pacote de transporte. Não envie apenas o arquivo ZIP ao repositório.
+
+2. ENVIAR PARA O GITHUB
+Crie um repositório separado para a Inove.
+Abra Add file > Upload files.
+Arraste o CONTEÚDO da pasta extraída: a pasta dist inteira, vercel.json, README.md, tests e este arquivo.
+Mantenha a pasta dist. Não envie apenas os arquivos de dentro dela.
+Clique em Commit changes para concluir.
+O arquivo vercel.json e a pasta dist devem aparecer na raiz do repositório.
+Não envie a pasta externa que o Windows pode criar ao extrair o ZIP.
+
+3. PUBLICAR NA VERCEL
+Na Vercel, escolha Add New > Project e importe o repositório da Inove.
+Framework Preset: Other.
+Root Directory: raiz do repositório.
+Output Directory: dist (também definido no vercel.json).
+Build Command: deixe vazio; não há compilação.
+Install Command: deixe vazio; não há dependências para instalar.
+Clique em Deploy e aguarde a conclusão.
+
+4. WHATSAPP — NÚMERO AINDA PENDENTE
+Em dist/contact-config.js, preencha whatsapp com o número COMERCIAL confirmado da Inove.
+Formato: 55 + DDD + telefone, somente dígitos, entre as aspas existentes.
+Enquanto esse número estiver vazio, o botão informa que o WhatsApp não está configurado.
+Com o número preenchido, o formulário e o seletor de cobertura abrem o WhatsApp com a mensagem pronta. O cliente confirma o envio no próprio WhatsApp, sem copiar e colar.
+
+5. DOMÍNIO DEFINITIVO
+Depois de publicar, atualize os endereços canônicos, metadados sociais e dist/sitemap.xml para o domínio definitivo da Inove. O pacote preserva os endereços da versão atual.
+
+CONTEÚDO
+Página completa, imagens, fontes locais, quatro artigos, comparador de custos, scripts, configuração Vercel e testes do fluxo WhatsApp.
+Fonte: commit 3e96e13572b746bcf9cdc70f3279e925f32ade84.

@@ -1,0 +1,118 @@
+{
+  "dist/app.js": {
+    "bytes": 5999,
+    "sha256": "79ed3ba7ca4f68d133884e27653552bfebab2036324a1be350ed6424b9e03c05"
+  },
+  "dist/assets/bricolage-medium.ttf": {
+    "bytes": 51064,
+    "sha256": "667ef407868a9dc16450941ffd7f1497c93acc176d6d881c54d30fa11ca1c519"
+  },
+  "dist/assets/bricolage.ttf": {
+    "bytes": 51072,
+    "sha256": "dd0ea3ae5617fe7a02a4cc6f45a762e395b8e2df5888726b8c2220a443804493"
+  },
+  "dist/assets/call-center.webp": {
+    "bytes": 59940,
+    "sha256": "035a73b429ac0f39c895649ca11c203bcf2c25809e7818abc19fb2f649388773"
+  },
+  "dist/assets/equipe.webp": {
+    "bytes": 70524,
+    "sha256": "cb5425fdf8d7f4d2b446d20306fc3616596d04b0bc56518fc89524628b1be034"
+  },
+  "dist/assets/favicon.svg": {
+    "bytes": 219,
+    "sha256": "4f9f03cca3c98832407ecabbeb9c0bf325bc2c94bbf5c1ec9aafcf541c2ba0de"
+  },
+  "dist/assets/hero-inove-completo.webp": {
+    "bytes": 163180,
+    "sha256": "91dc90f8820326b69d82aa22ec357cff4967b68497481ce45a0ef5489b92dc61"
+  },
+  "dist/assets/hero-inove.webp": {
+    "bytes": 212126,
+    "sha256": "5dc55a3b043137e3578a117a6f458c420b2d21e1119c638f1aaafad6f899228e"
+  },
+  "dist/assets/inter-regular.ttf": {
+    "bytes": 54328,
+    "sha256": "5396a34f03caaf762c598abedebdbe0d0b2ee205a1b937986a1540a9110971ba"
+  },
+  "dist/assets/inter-semibold.ttf": {
+    "bytes": 54464,
+    "sha256": "33f18b65662d75839fe6e9ada0b91e5f265f63449430eaca7cff220491b2fa1e"
+  },
+  "dist/assets/operacao-planejada.webp": {
+    "bytes": 81276,
+    "sha256": "2184b79bb1a047557180ee87783889ca8e8a11885f3ace8b6140009bcbe420f7"
+  },
+  "dist/blog/atendimento-sob-medida-pouco-volume/index.html": {
+    "bytes": 5679,
+    "sha256": "620cf20dbce8ba56be9faad975630e0fa631b10dc6bff278668d85eb7f6904a7"
+  },
+  "dist/blog/impactos-escala-5x2-call-center/index.html": {
+    "bytes": 6692,
+    "sha256": "da2fcd8b421d135971b212dcd1ccf5e689bf5580713c37459fbd4b7b1d9bd523"
+  },
+  "dist/blog/index.html": {
+    "bytes": 3209,
+    "sha256": "e3c6c2ce3690b68937afc3346363400f5718b733944da3df0bee15760a551be5"
+  },
+  "dist/blog/jornada-36-horas-teleatendimento/index.html": {
+    "bytes": 6814,
+    "sha256": "2b3c010d1996133ce6a1ffdd5905ea7919e7a712e49527f1ce6e39c5ff84044b"
+  },
+  "dist/blog/sac-atendimento-humano-24x7/index.html": {
+    "bytes": 6239,
+    "sha256": "8ac8a659eedd0b8c625ba5dd3fe53652f0c3ba4ced2525d17d1ef844abf0cebb"
+  },
+  "dist/body-v3.css": {
+    "bytes": 15016,
+    "sha256": "decb89c27d3795ce6a35a2fd1f7a49bc8bc7ef3bf069a026c0d8f7b98b05b2af"
+  },
+  "dist/contact-config.js": {
+    "bytes": 134,
+    "sha256": "a25b69de46f410d2ea3fa50edc427efef5da0cb767c053524ca78d5b5a006288"
+  },
+  "dist/editorial.css": {
+    "bytes": 3836,
+    "sha256": "10d6b1778811fa24583fa6fde0dd9b9744930a10caa97e0f4b68c1fee756adfd"
+  },
+  "dist/index.html": {
+    "bytes": 28984,
+    "sha256": "0e0c88fec9763e48590a4a344f7143cc1ca3e639dc779dfe8d05bffe8697f13f"
+  },
+  "dist/refinements.css": {
+    "bytes": 7405,
+    "sha256": "0b02af0152ff552517f81063a347495e0323ecf339b4cb453970c4e208aebb54"
+  },
+  "dist/robots.txt": {
+    "bytes": 104,
+    "sha256": "874ff08264f73659fdc264044bfe3e4dcc779b3daed558d8833ee545d519af8e"
+  },
+  "dist/sitemap.xml": {
+    "bytes": 928,
+    "sha256": "7d3aa08b1cd71035f6020361294e319a1e0d517d179c219721f925e0f36680de"
+  },
+  "dist/styles.css": {
+    "bytes": 23103,
+    "sha256": "8f3a7e983bd51b6f2b744d8032907f07709e2a27628aa3853fc94c45c86c14df"
+  },
+  "dist/whatsapp.js": {
+    "bytes": 782,
+    "sha256": "b0474cefaa7ffe26abd84da34e620fb81e60d092c258b6618f625d4803b51913"
+  },
+  "vercel.json": {
+    "bytes": 153,
+    "sha256": "4a8c47492a4bb78a7f2d2acbc97c4422a9c8e39afba6a53ea5dbdd75331b95c5"
+  },
+  "README.md": {
+    "bytes": 1781,
+    "sha256": "ae7d080209b2539f19b1baf73e6e689f682ea9d5271ff48ffa1dc683c4888dfa"
+  },
+  ".gitignore": {
+    "bytes": 14,
+    "sha256": "3e64800ccaaf6cd2af13747bb3a0ec1fe362d116126e2cff444b5fb26bd7b0d5"
+  },
+  "tests/whatsapp.test.cjs": {
+    "bytes": 1531,
+    "sha256": "4483e0af5078ef032de979f80989e96cf9a55850da1d86e9ac9f60b3dab51d17"
+  }
+}

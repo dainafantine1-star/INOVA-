@@ -1,0 +1,9 @@
+{
+  "integridade_zip": "OK",
+  "arquivos_originais_conferidos": 29,
+  "paginas_html": 6,
+  "referencias_locais_quebradas": [],
+  "comparacao_de_conteudo_sha256": "OK",
+  "teste_whatsapp": "WhatsApp: form values, all coverage choices, URL encoding and invalid recipient checks passed.",
+  "observacao": "O numero comercial do WhatsApp permanece pendente em dist/contact-config.js. O pacote nao inclui historico Git nem metadados internos de hospedagem, que nao sao necessarios ao GitHub/Vercel."
+}
