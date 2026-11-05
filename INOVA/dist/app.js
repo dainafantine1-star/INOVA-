@@ -28,32 +28,10 @@ form.addEventListener('submit', event => {
   if (!form.reportValidity()) return;
   contactError.hidden = true;
   const get = id => document.getElementById(id).value;
-  const message = window.InoveWhatsApp.briefMessage({desafio:get('desafio'), volume:get('volume'), cobertura:get('cobertura'), canais:get('canais')});
+  const message = window.InoveWhatsApp.briefMessage({volume:get('volume'), cobertura:get('cobertura'), canais:get('canais')});
   openWhatsapp(message);
 });
 
-// Accessible solution tabs. Panel links and image choices belong to each scenario.
-const solutionTabs = [...document.querySelectorAll('.v3-tabs [role="tab"]')];
-function selectSolution(tab, focus = false) {
-  solutionTabs.forEach(item => {
-    const active = item === tab;
-    item.setAttribute('aria-selected', String(active));
-    item.tabIndex = active ? 0 : -1;
-    document.getElementById(item.getAttribute('aria-controls')).hidden = !active;
-  });
-  if (focus) tab.focus();
-}
-solutionTabs.forEach((tab, index) => {
-  tab.addEventListener('click', () => selectSolution(tab));
-  tab.addEventListener('keydown', event => {
-    let target;
-    if (event.key === 'ArrowRight') target = (index + 1) % solutionTabs.length;
-    if (event.key === 'ArrowLeft') target = (index + solutionTabs.length - 1) % solutionTabs.length;
-    if (event.key === 'Home') target = 0;
-    if (event.key === 'End') target = solutionTabs.length - 1;
-    if (target !== undefined) { event.preventDefault(); selectSolution(solutionTabs[target], true); }
-  });
-});
 const coverageExamples = {
   business: { hours: 50, gap: 118, label: 'Atendimento de segunda a sexta, das 8h às 18h. 50 horas por semana.' },
   extended: { hours: 98, gap: 70, label: 'Atendimento todos os dias, das 8h às 22h. 98 horas por semana.' },
